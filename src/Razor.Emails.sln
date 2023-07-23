@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Razor.Emails.Core", "Razor.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Razor.Emails.API", "Razor.Emails.API\Razor.Emails.API.csproj", "{09688598-04D8-481F-8F24-8682BAD9DFFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Razor.Emails.Services", "Razor.Emails.Services\Razor.Emails.Services.csproj", "{75CE2EB4-563D-4F70-9042-F000686F26B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{09688598-04D8-481F-8F24-8682BAD9DFFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09688598-04D8-481F-8F24-8682BAD9DFFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09688598-04D8-481F-8F24-8682BAD9DFFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75CE2EB4-563D-4F70-9042-F000686F26B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75CE2EB4-563D-4F70-9042-F000686F26B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75CE2EB4-563D-4F70-9042-F000686F26B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75CE2EB4-563D-4F70-9042-F000686F26B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Razor.Emails.Services\Razor.Emails.Services.csproj" />
     <ProjectReference Include="..\Razor.Emails.Templates\Razor.Emails.Templates.csproj" />
   </ItemGroup>
 

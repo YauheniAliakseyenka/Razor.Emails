@@ -1,6 +1,4 @@
-﻿@inherits LayoutComponentBase
-
-@inject IConfigurationService ConfigurationService
+﻿@inject IConfigurationService ConfigurationService
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -13,14 +11,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <!--<![endif]-->
 </head>
-<body>
-    @Body ?? @ChildContent
-</body>
+<body>@ChildContent</body>
 </html>
 
 @code {
     [Parameter]
-    public RenderFragment? ChildContent { get; set; }
+    public RenderFragment ChildContent { get; set; }
 
     public string AssetsDomain { get; private set; }
 
